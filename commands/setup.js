@@ -62,7 +62,7 @@ async function closeTicket(interaction, ticketChannel) {
         .setColor('#ff0000')
   .setDescription(`**Your ticket has been closed successfully.** \n\n- If you have any further questions, feel free to open a new ticket.`)
         .setImage('https://cdn.discordapp.com/attachments/1209503146485747723/1209507551184556054/2.png?ex=65e72caf&is=65d4b7af&hm=30b0b243fe24521a08f0cc49025bc28ba0bf78be82a1d02013c0c27c190d9ada&')
-    .setFooter({ text: 'Thank You for Using Our Ticket Service!', iconURL:'https://cdn.discordapp.com/attachments/1209503146485747723/1209503206871400458/5620-ticket.png?ex=65e728a4&is=65d4b3a4&hm=93bae44d478db895734ef9dfe86325b453e905c64101a20161075b153b91490d&'})
+    .setFooter({ text: 'Thank You for Using Delta!', iconURL:'https://cdn.discordapp.com/attachments/1209503146485747723/1209503206871400458/5620-ticket.png?ex=65e728a4&is=65d4b3a4&hm=93bae44d478db895734ef9dfe86325b453e905c64101a20161075b153b91490d&'})
      .setTimestamp();
 await ticketOwner.send({ embeds: [confirmationEmbed] });
 
